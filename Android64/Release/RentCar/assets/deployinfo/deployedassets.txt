@@ -1,1 +1,2 @@
 .\assets\internal\rc_db.db
+.\assets\internal\user.png

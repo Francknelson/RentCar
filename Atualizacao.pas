@@ -100,9 +100,9 @@ var
   url: string;
 begin
 {$IFDEF ANDROID}
-  url := 'https://drive.google.com/drive/folders/1qC125UzAHDJc7IFwul0jywMPscOSlfOx?usp=share_link';
+  url := 'https://drive.google.com/file/d/13lEZtM4CC-oqi07IIaVkDEh_w3Cxp_YH/view?usp=sharing';
 {$ELSE}
-  url := 'https://drive.google.com/drive/folders/1qC125UzAHDJc7IFwul0jywMPscOSlfOx?usp=share_link';
+  url := 'https://drive.google.com/file/d/13lEZtM4CC-oqi07IIaVkDEh_w3Cxp_YH/view?usp=sharing';
 {$ENDIF}
   OpenURL(url, False);
   Application.Terminate;

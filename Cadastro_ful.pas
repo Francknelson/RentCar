@@ -48,7 +48,6 @@ end;
 
 procedure TForm6.GetUsuario;
 begin
-  ShowMessage( Login.Form1.campo_email.Text);
   DM.FDQueryPessoa.Locate('email', Login.Form1.campo_email.Text, []);
   campo_nome.Text := DM.FDQueryPessoanome.AsString;
   campo_sobrenome.Text := DM.FDQueryPessoasobrenome.AsString;
